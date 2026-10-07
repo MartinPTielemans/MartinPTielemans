@@ -14,7 +14,7 @@ I like owning the whole thing: the idea, the interface, the backend, the deploy,
   </picture>
 </a>
 
-<a href="https://github.com/tielemans-dev/quits-oss"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/quits-dark.svg"><img alt="Quits: source-available invoicing for freelancers and small businesses" src="assets/quits-light.svg" width="49%"></picture></a>&nbsp;<a href="https://github.com/MartinPTielemans/PackSwitcher"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packswitcher-dark.svg"><img alt="PackSwitcher: macOS menu bar app that translates package manager commands" src="assets/packswitcher-light.svg" width="49%"></picture></a>
+<a href="https://github.com/tielemans-dev/quits-oss"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/quits-dark.svg"><img alt="Quits: source-available invoicing for freelancers and small businesses" src="assets/quits-light.svg" width="49.5%"></picture></a>&nbsp;<a href="https://github.com/MartinPTielemans/PackSwitcher"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packswitcher-dark.svg"><img alt="PackSwitcher: macOS menu bar app that translates package manager commands" src="assets/packswitcher-light.svg" width="49.5%"></picture></a>
 
 ### Stack
 
