@@ -1,21 +1,25 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Martin Tielemans — full-stack developer, building products end to end" src="assets/banner-light.svg" width="100%">
+  <img alt="Martin Tielemans. I build products end to end, and the tools that make building them faster." src="assets/banner-light.svg" width="100%">
 </picture>
 
-Hi, I'm Martin. Full-stack developer and Computer Science student in Aalborg, Denmark. I run **[Tielemans Software](https://tielemans.dev)**, where I build and ship small products end to end: the web app, the native iOS app, and the tooling around them.
+I like owning the whole thing: the idea, the interface, the backend, the deploy, and the tooling that makes the next one faster. Most of that happens at **[Tielemans Software](https://tielemans.dev)**, alongside a Computer Science degree in Aalborg.
 
-#### Right now
+### Selected work
 
-- Shipping products under Tielemans Software, from idea to paying customer
-- Building native iOS apps in Swift and SwiftUI
-- Working on AI agent tooling: MCP servers and running coding agents across machines
+<a href="https://github.com/MartinPTielemans/t3-fleet">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/t3-fleet-dark.svg">
+    <img alt="T3 Fleet: keeps every machine you run T3 Code on identical, shows what drifted and fixes it" src="assets/t3-fleet-light.svg" width="100%">
+  </picture>
+</a>
 
-#### Stack
+<a href="https://github.com/tielemans-dev/quits-oss"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/quits-dark.svg"><img alt="Quits: source-available invoicing for freelancers and small businesses" src="assets/quits-light.svg" width="49%"></picture></a>&nbsp;<a href="https://github.com/MartinPTielemans/PackSwitcher"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packswitcher-dark.svg"><img alt="PackSwitcher: macOS menu bar app that translates package manager commands" src="assets/packswitcher-light.svg" width="49%"></picture></a>
+
+### Stack
 
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,react,nextjs,vue,nuxt,nodejs,swift,flutter,rust,lua,bash,tailwind&perline=12" alt="TypeScript, React, Next.js, Vue, Nuxt, Node, Swift, Flutter, Rust, Lua, Bash, Tailwind" /></a>
 
-#### Find me
+### Find me
 
-[![tielemans.dev](https://img.shields.io/badge/tielemans.dev-0d1117?style=flat-square&logo=googlechrome&logoColor=white)](https://tielemans.dev)
-[![Tielemans Software](https://img.shields.io/badge/Tielemans_Software-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/tielemans-dev)
+[tielemans.dev](https://tielemans.dev) · [Tielemans Software on GitHub](https://github.com/tielemans-dev)

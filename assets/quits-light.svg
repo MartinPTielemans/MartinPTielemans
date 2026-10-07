@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="340" viewBox="0 0 590 340" fill="none">
+<defs>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#e6e9ec"/></pattern>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(442.5 136.0) scale(295.0 374.00000000000006)">
+    <stop stop-color="#1a7f37" stop-opacity="0.22"/><stop offset="1" stop-color="#1a7f37" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="r"><rect width="590" height="340" rx="16"/></clipPath>
+</defs>
+<style>
+  .t { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+  .m { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-variant-ligatures: none; font-feature-settings: "liga" 0, "calt" 0; }
+  .pulse { animation: p 2.4s ease-in-out infinite; }
+  .pulse2 { animation: p 2.4s ease-in-out .8s infinite; }
+  .pulse3 { animation: p 2.4s ease-in-out 1.6s infinite; }
+  @keyframes p { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
+  .drift { animation: d 16s ease-in-out infinite alternate; }
+  @keyframes d { from { transform: translateX(0) } to { transform: translateX(-60px) } }
+  .flow { stroke-dasharray: 4 6; animation: f 1.6s linear infinite; }
+  @keyframes f { to { stroke-dashoffset: -20 } }
+  .blink { animation: b 1.1s steps(1) infinite; }
+  @keyframes b { 50% { opacity: 0 } }
+  @media (prefers-reduced-motion: reduce) { .pulse, .pulse2, .pulse3, .drift, .flow, .blink { animation: none } }
+</style>
+<g clip-path="url(#r)">
+  <rect width="590" height="340" fill="#ffffff"/>
+  <rect width="590" height="340" fill="url(#dots)"/>
+  <g class="drift"><rect x="-100" width="790" height="340" fill="url(#glow)"/></g>
+
+  <text x="36" y="66" class="m" font-size="12" fill="#1a7f37" letter-spacing="1.5">SOURCE-AVAILABLE</text>
+  <text x="34" y="114" class="t" font-size="38" font-weight="700" fill="#1f2328" letter-spacing="-1.2">Quits</text>
+  <text x="36" y="152" class="t" font-size="16" fill="#59636e">Invoicing for freelancers</text>
+  <text x="36" y="174" class="t" font-size="16" fill="#59636e">and small businesses.</text>
+  <text x="36" y="196" class="t" font-size="16" fill="#59636e">Self-host with Docker.</text>
+  <g transform="translate(36 252)"><rect width="73" height="24" rx="12" fill="#1a7f37" fill-opacity="0.12" stroke="#1a7f37" stroke-opacity="0.35"/><text x="37" y="16.5" text-anchor="middle" class="m" font-size="12" fill="#1a7f37">TanStack</text></g>
+<g transform="translate(117.2 252)"><rect width="44" height="24" rx="12" fill="#0969da" fill-opacity="0.12" stroke="#0969da" stroke-opacity="0.35"/><text x="22" y="16.5" text-anchor="middle" class="m" font-size="12" fill="#0969da">tRPC</text></g>
+  <g transform="translate(316 56)">
+  <rect width="236" height="228" rx="10" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <text x="18" y="32" class="t" font-size="15" font-weight="700" fill="#1f2328">Invoice #0042</text>
+  <g transform="translate(152 16)"><rect width="66" height="22" rx="11" fill="#1a7f37" fill-opacity="0.14"/><text x="33" y="15" text-anchor="middle" class="t" font-size="11" font-weight="600" fill="#1a7f37">PAID</text></g>
+  <rect x="18" y="52" width="110" height="7" rx="3.5" fill="#d1d9e0"/>
+  <rect x="18" y="66" width="74" height="7" rx="3.5" fill="#d1d9e0"/>
+  <line x1="18" y1="92" x2="218" y2="92" stroke="#d1d9e0"/>
+  <rect x="18" y="108" width="120" height="7" rx="3.5" fill="#d1d9e0"/><text x="218" y="115" text-anchor="end" class="m" font-size="11" fill="#59636e">8 400</text>
+  <rect x="18" y="130" width="96" height="7" rx="3.5" fill="#d1d9e0"/><text x="218" y="137" text-anchor="end" class="m" font-size="11" fill="#59636e">2 100</text>
+  <rect x="18" y="152" width="108" height="7" rx="3.5" fill="#d1d9e0"/><text x="218" y="159" text-anchor="end" class="m" font-size="11" fill="#59636e">2 625</text>
+  <line x1="18" y1="178" x2="218" y2="178" stroke="#d1d9e0"/>
+  <text x="18" y="206" class="t" font-size="13" fill="#59636e">Total</text>
+  <text x="218" y="207" text-anchor="end" class="t" font-size="18" font-weight="700" fill="#1f2328">13 125 kr</text>
+</g>
+</g>
+<rect x="0.5" y="0.5" width="589" height="339" rx="15.5" stroke="#d1d9e0"/>
+</svg>
